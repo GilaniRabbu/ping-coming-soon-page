@@ -107,7 +107,7 @@ form {
     justify-content: center;
 }
 
-i {
+.fa-brands {
     width: 30px;
     height: 30px;
     display: flex;
@@ -121,11 +121,11 @@ i {
     transition: all 0.2s linear;
 }
 
-i:last-of-type {
+.fa-brands:last-of-type {
     font-size: 1rem;
 }
 
-i:hover {
+.fa-brands:hover {
     background-color: var(--primary-blue);
     color: #FFF;
     border: none;
