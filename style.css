@@ -47,7 +47,7 @@ span {
 }
 
 .desc {
-    font-size: 17px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
@@ -94,6 +94,17 @@ form {
     background-color: hsl(223, 85%, 69%);
 }
 
+.error-message {
+    color: var(--secondary-red);
+    display: block;
+    margin-top: 0.75rem;
+    margin-left: 2.2rem;
+    text-align: left;
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
 .dashboard {
     margin-top: 85px;
     width: 100%;
@@ -133,7 +144,8 @@ form {
 
 .copyright {
     color: var(--neutral-gray);
-    font-size: 11px;
+    font-size: 12px;
+    letter-spacing: 1px;
     padding-top: 28px;
     padding-bottom: 3rem;
 }
