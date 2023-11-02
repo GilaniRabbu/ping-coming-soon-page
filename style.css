@@ -83,7 +83,7 @@ form {
     letter-spacing: 0.03rem;
     border-radius: 58px;
     border: none;
-    color: white;
+    color: #FFF;
     background-color: var(--primary-blue);
     box-shadow: 0 5px 20px hsla(223, 87%, 63%, 0.3);
     cursor: pointer;
@@ -91,7 +91,7 @@ form {
 }
 
 .button:hover {
-    background-color: hsl(223, 85%, 69%);
+    background-color: hsl(223, 85%, 70%);
 }
 
 .error-message {
@@ -106,7 +106,7 @@ form {
 }
 
 .dashboard {
-    margin-top: 85px;
+    margin-top: 78px;
     width: 100%;
     max-width: 640px;
 }
@@ -147,4 +147,47 @@ form {
     font-size: 12px;
     padding-top: 28px;
     padding-bottom: 3rem;
+}
+
+@media (max-width: 672px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #email {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .button {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .error-message {
+        margin-top: 1.2rem;
+        margin-left: 0;
+    }
+
+    .dashboard {
+        width: 100%;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 510px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .desc {
+        font-size: 17px;
+    }
 }
