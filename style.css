@@ -29,7 +29,7 @@ body {
 }
 
 main {
-    margin-top: 87px;
+    margin-top: 80px;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ h1 {
     color: var(--neutral-gray);
     font-size: 38px;
     font-weight: 300;
-    margin-top: 58px;
+    margin-top: 55px;
 }
 
 span {
@@ -74,7 +74,7 @@ form {
     color: var(--secondary-blue);
 }
 
-button {
+.button {
     width: 200px;
     height: 56px;
     margin-left: 10px;
@@ -89,18 +89,18 @@ button {
     transition: all 0.2s linear;
 }
 
-button:hover {
+.button:hover {
     background-color: hsl(223, 85%, 69%);
 }
 
 .dashboard {
-    margin-top: 88px;
+    margin-top: 85px;
     width: 100%;
     max-width: 640px;
 }
 
 .flex {
-    margin-top: 90px;
+    margin-top: 72px;
     display: flex;
     gap: 1rem;
     justify-content: center;
