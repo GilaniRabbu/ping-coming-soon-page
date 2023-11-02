@@ -29,7 +29,7 @@ body {
 }
 
 main {
-    margin-top: 80px;
+    margin-top: 82px;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ h1 {
     font-size: 48px;
     letter-spacing: 2px;
     font-weight: 300;
-    margin-top: 55px;
+    margin-top: 54px;
 }
 
 span {
@@ -48,7 +48,7 @@ span {
 
 .desc {
     font-size: 17px;
-    margin-top: 26px;
+    margin-top: 24px;
 }
 
 form {
