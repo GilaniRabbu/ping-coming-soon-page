@@ -29,13 +29,14 @@ body {
 }
 
 main {
-    margin-top: 80px;
+    margin-top: 77px;
     text-align: center;
 }
 
 h1 {
     color: var(--neutral-gray);
-    font-size: 38px;
+    font-size: 40px;
+    letter-spacing: 2px;
     font-weight: 300;
     margin-top: 55px;
 }
@@ -51,7 +52,7 @@ span {
 }
 
 form {
-    margin-top: 44px;
+    margin-top: 40px;
 }
 
 #email {
@@ -106,7 +107,7 @@ form {
     justify-content: center;
 }
 
-.fa-brands {
+i {
     width: 30px;
     height: 30px;
     display: flex;
@@ -120,11 +121,11 @@ form {
     transition: all 0.2s linear;
 }
 
-.fa-brands:last-of-type {
+i:last-of-type {
     font-size: 1rem;
 }
 
-.fa-brands:hover {
+i:hover {
     background-color: var(--primary-blue);
     color: #FFF;
     border: none;
