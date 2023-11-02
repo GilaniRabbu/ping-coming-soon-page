@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root {
+    --primary-blue: hsl(223, 87%, 63%);
+    --secondary-blue: hsl(223, 100%, 88%);
+    --secondary-red: hsl(354, 100%, 66%);
+    --neutral-gray: hsl(0, 0%, 59%);
+    --neutral-blue: hsl(209, 33%, 12%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 87px;
+    text-align: center;
+}
+
+h1 {
+    color: var(--neutral-gray);
+    font-size: 38px;
+    font-weight: 300;
+    margin-top: 58px;
+}
+
+span {
+    color: var(--neutral-blue);
+    font-weight: 700;
+}
+
+.desc {
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 44px;
+}
+
+#email {
+    width: 420px;
+    height: 56px;
+    padding: 0 1.95rem;
+    border-radius: 58px;
+    border: 1px solid var(--secondary-blue);
+    font-size: 1.05rem;
+    font-weight: 300;
+}
+
+#email:focus {
+    outline: none;
+}
+
+#email::placeholder {
+    font-size: 1.05rem;
+    font-weight: 300;
+    color: var(--secondary-blue);
+}
+
+button {
+    width: 200px;
+    height: 56px;
+    margin-left: 10px;
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
+    border-radius: 58px;
+    border: none;
+    color: white;
+    background-color: var(--primary-blue);
+    box-shadow: 0 5px 20px hsla(223, 87%, 63%, 0.298);
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+button:hover {
+    background-color: hsl(223, 85%, 69%);
+}
+
+.dashboard {
+    margin-top: 88px;
+    width: 100%;
+    max-width: 640px;
+}
+
+.flex {
+    margin-top: 90px;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.fa-brands {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    border: 1px solid hsl(226, 56%, 91%);
+    color: var(--primary-blue);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.fa-brands:last-of-type {
+    font-size: 1rem;
+}
+
+.fa-brands:hover {
+    background-color: var(--primary-blue);
+    color: #FFF;
+    border: none;
+}
+
+.copyright {
+    color: var(--neutral-gray);
+    font-size: 11px;
+    padding-top: 28px;
+    padding-bottom: 3rem;
+}
