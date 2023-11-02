@@ -48,7 +48,7 @@ span {
 
 .desc {
     font-size: 17px;
-    margin-top: 24px;
+    margin-top: 20px;
 }
 
 form {
@@ -101,7 +101,7 @@ form {
 }
 
 .flex {
-    margin-top: 70px;
+    margin-top: 66px;
     display: flex;
     gap: 1rem;
     justify-content: center;
