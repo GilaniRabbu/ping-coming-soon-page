@@ -29,13 +29,13 @@ body {
 }
 
 main {
-    margin-top: 77px;
+    margin-top: 80px;
     text-align: center;
 }
 
 h1 {
     color: var(--neutral-gray);
-    font-size: 40px;
+    font-size: 48px;
     letter-spacing: 2px;
     font-weight: 300;
     margin-top: 55px;
@@ -48,7 +48,7 @@ span {
 
 .desc {
     font-size: 17px;
-    margin-top: 30px;
+    margin-top: 26px;
 }
 
 form {
@@ -101,7 +101,7 @@ form {
 }
 
 .flex {
-    margin-top: 72px;
+    margin-top: 70px;
     display: flex;
     gap: 1rem;
     justify-content: center;
