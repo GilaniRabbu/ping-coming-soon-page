@@ -29,16 +29,16 @@ body {
 }
 
 main {
-    margin-top: 82px;
+    margin-top: 83px;
     text-align: center;
 }
 
 h1 {
     color: var(--neutral-gray);
-    font-size: 48px;
+    font-size: 3rem;
     letter-spacing: 2px;
     font-weight: 300;
-    margin-top: 54px;
+    margin-top: 3rem;
 }
 
 span {
