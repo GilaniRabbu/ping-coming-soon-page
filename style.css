@@ -85,7 +85,7 @@ form {
     border: none;
     color: white;
     background-color: var(--primary-blue);
-    box-shadow: 0 5px 20px hsla(223, 87%, 63%, 0.298);
+    box-shadow: 0 5px 20px hsla(223, 87%, 63%, 0.3);
     cursor: pointer;
     transition: all 0.2s linear;
 }
@@ -125,7 +125,7 @@ form {
     justify-content: center;
     align-items: center;
     font-size: 0.9rem;
-    border: 1px solid hsl(226, 56%, 91%);
+    border: 1px solid hsl(225, 55%, 90%);
     color: var(--primary-blue);
     border-radius: 50%;
     cursor: pointer;
@@ -145,7 +145,6 @@ form {
 .copyright {
     color: var(--neutral-gray);
     font-size: 12px;
-    letter-spacing: 1px;
     padding-top: 28px;
     padding-bottom: 3rem;
 }
