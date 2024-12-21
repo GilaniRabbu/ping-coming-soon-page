@@ -2,34 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="stylesheet" href="style.css">
-    <title>Frontend Mentor | Ping Coming Soon Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Ping Coming Soon Page</title>
 </head>
 
 <body>
-    <main>
-        <img src="img/logo.svg" alt="logo">
-        <h1>We are launching <span>soon!</span></h1>
-        <p class="desc">Subscribe and get notified</p>
-        <form action="#">
-            <input type="email" id="email" placeholder="Your email address">
-            <input type="submit" class="button" value="Notify Me">
-            <span id="error-message" class="error-message"></span>
-        </form>
-        <img src="img/illustration-dashboard.png" class="dashboard" alt="illustration dashboard">
-        <div class="flex">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
+  <main>
+    <img src="img/logo.svg" alt="Ping logo" class="logo">
+    <h1>We are launching <span>soon!</span></h1>
+    <p class="desc">Subscribe and get notified</p>
+
+    <form>
+      <div class="form-container">
+        <div class="input-wrapper">
+          <input type="email" id="email" placeholder="Your email address..." aria-label="Email address">
+          <span class="error-message" aria-live="polite"></span>
         </div>
-        <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
-    </main>
-    <script src="script.js"></script>
+        <button type="submit" class="button">Notify Me</button>
+      </div>
+    </form>
+
+    <img src="img/illustration-dashboard.png" class="dashboard" alt="Dashboard illustration">
+
+    <div class="social">
+      <a href="#" aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="#" aria-label="Twitter">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="#" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+
+    <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+  </main>
 </body>
 
 </html>
