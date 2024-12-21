@@ -29,20 +29,21 @@ main {
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  padding: 20px;
+  padding-top: 84px;
 }
 
 .logo {
-  width: 70px;
-  margin-bottom: 40px;
+  width: 86px;
+  margin-bottom: 46px;
 }
 
 h1 {
   color: var(--neutral-gray);
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 300;
-  margin-bottom: 16px;
-  letter-spacing: -0.03em;
+  margin-bottom: 15px;
+  letter-spacing: -0.035em;
+  line-height: 1.2;
 }
 
 h1 span {
@@ -53,30 +54,32 @@ h1 span {
 .desc {
   color: var(--neutral-blue);
   font-size: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 }
 
 .form-container {
   display: flex;
+  justify-content: center;
   gap: 16px;
   max-width: 100%;
   margin-bottom: 72px;
   position: relative;
-  flex-wrap: wrap;
+  padding: 0 15px;
 }
 
 .input-wrapper {
-  flex: 1 1 320px;
-  min-width: 0;
+  width: 420px;
+  position: relative;
 }
 
 #email {
   width: 100%;
-  padding: 16px 32px;
+  height: 56px;
+  padding: 0 30px;
   border: 1px solid var(--secondary-blue);
   border-radius: 28px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 16.5px;
   color: var(--neutral-blue);
 }
 
@@ -92,14 +95,16 @@ h1 span {
 .error-message {
   position: absolute;
   left: 32px;
-  bottom: -24px;
+  top: calc(100% + 6px);
   color: var(--secondary-red);
   font-size: 13px;
   font-style: italic;
+  text-align: left;
 }
 
 .button {
-  padding: 16px 64px;
+  width: 200px;
+  height: 56px;
   background: var(--primary-blue);
   color: white;
   border: none;
@@ -107,17 +112,18 @@ h1 span {
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
-  transition: opacity 0.2s;
-  box-shadow: 0 5px 10px rgba(76, 123, 243, 0.23);
-  flex: 0 0 auto;
+  transition: all 0.2s;
+  box-shadow: 0 5px 15px rgba(76, 123, 243, 0.3);
 }
 
 .button:hover {
   opacity: 0.8;
+  transform: translateY(-1px);
 }
 
 .dashboard {
-  max-width: 100%;
+  max-width: 640px;
+  width: 100%;
   height: auto;
   margin-bottom: 72px;
 }
@@ -126,7 +132,7 @@ h1 span {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin-bottom: 28px;
+  margin-bottom: 27px;
 }
 
 .social a {
@@ -135,7 +141,7 @@ h1 span {
   justify-content: center;
   width: 32px;
   height: 32px;
-  border: 1px solid hsla(223, 87%, 63%, 0.2);
+  border: 1px solid rgba(76, 123, 243, 0.15);
   border-radius: 50%;
   color: var(--primary-blue);
   text-decoration: none;
@@ -148,37 +154,57 @@ h1 span {
   border-color: var(--primary-blue);
 }
 
+.social i {
+  font-size: 15px;
+}
+
+.social i.fa-instagram {
+  font-size: 16px;
+}
+
 .copyright {
   color: var(--neutral-gray);
   font-size: 12px;
 }
 
 @media (max-width: 640px) {
+  main {
+    padding-top: 40px;
+  }
+
   h1 {
-    font-size: 32px;
+    font-size: 24px;
+    margin-bottom: 15px;
   }
 
   .desc {
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 30px;
   }
 
   .form-container {
     flex-direction: column;
-    gap: 12px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
   }
 
   .input-wrapper {
-    flex: 1 1 auto;
+    width: 100%;
   }
 
   .button {
     width: 100%;
-    padding: 16px 32px;
+    max-width: 420px;
   }
 
   .error-message {
     position: static;
     margin-top: 8px;
     text-align: center;
+  }
+
+  .dashboard {
+    margin-bottom: 50px;
   }
 }
