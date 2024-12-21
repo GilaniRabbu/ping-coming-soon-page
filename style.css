@@ -32,7 +32,7 @@ h1 {
   font-size: 3rem;
   letter-spacing: 1px;
   font-weight: 300;
-  margin-top: 2.5rem;
+  margin-top: 2.25rem;
 }
 
 span {
@@ -42,7 +42,7 @@ span {
 
 .desc {
   font-size: 1.25rem;
-  margin-top: 1.25rem;
+  margin-top: 1rem;
 }
 
 form {
